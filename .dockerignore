@@ -1,0 +1,12 @@
+.venv
+.uv-cache
+candidate
+yolo_pii_obb_*
+runs
+output
+test
+docs
+tools
+__pycache__
+*.ipynb
+uv.lock.bak

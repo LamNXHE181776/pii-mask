@@ -1,0 +1,16 @@
+[project]
+name = "id-image-train"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "fastapi>=0.162.0",
+    "uvicorn[standard]>=0.30",
+    "ipykernel>=7.4.0",
+    "opencv-python>=5.0.0.93",
+    "onnxruntime>=1.31.1",
+    "vietocr>=0.3.13",
+    "torch",
+    "torchvision",
+    "python-multipart>=0.0.33",
+]
+

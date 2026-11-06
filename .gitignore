@@ -1,0 +1,22 @@
+# Python / tooling
+.venv/
+.uv-cache/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.idea/
+
+# Local data and artifacts (not part of the service)
+candidate/
+yolo_pii_obb_*/
+runs/
+output/
+test/
+test.json
+test.txt
+*.ipynb
+*.pdf
+
+# Never ship the access token or local env files
+.env
+*.pem
